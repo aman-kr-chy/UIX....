@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.navbar{
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar a{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+.talk-btn button{
+    font-size: 18px;
+    padding: 10px 20px;
+    background: aqua;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+.left{
+    max-width: 500px;
+}
+
+.intro{
+    font-size: 25px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.left h1{
+    font-size: 60px;
+    color: aqua;
+    line-height: 1.1;
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+.contact,
+.portfolio{
+    padding: 12px 25px;
+    color: white;
+    background: #2f3dbd;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    margin-right: 15px;
+}
+
+.right img{
+    width: 400px;
+    border-radius: 20px;
+}
